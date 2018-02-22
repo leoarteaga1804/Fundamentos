@@ -4,14 +4,15 @@
 using namespace std;
 
 void main(){
-float salario,di,da,dt,sn;
-cout<<"ingrese el salario:";
-cin>>salario;
-di=salario*0.13;
-da=salario*0.121;
-dt=di+da;
-sn=salario-dt;
-cout<<"el salario neto es:"<<sn;
-cout<<endl;
-getch();
+    float salario,di,da,dt,sn;
+    cout<<"ingrese el salario:";
+    cin>>salario;
+    di=salario*0.13;
+    da=salario*0.121;
+    dt=di+da;
+    sn=salario-dt;
+    cout<<"el salario neto es:"<<sn;
+    cout<<endl;
+    getch();
 }
+
